@@ -46,6 +46,22 @@ print("CSV Dataset Columns:", csv_dataset.columns)
 print("Excel Dataset Columns:", excel_dataset.columns)
 print("JSON Dataset Columns:", json_dataset.columns)
 ```
+```output
+CSV Dataset Columns: Index(['product_id', 'product_name', 'category', 'discounted_price',
+       'actual_price', 'discount_percentage', 'rating', 'rating_count',
+       'about_product', 'user_id', 'user_name', 'review_id', 'review_title',
+       'review_content', 'img_link', 'product_link'],
+      dtype='object')
+Excel Dataset Columns: Index(['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Delivery Duration',
+       'Ship Mode', 'Customer ID', 'Customer Name', 'Segment', 'Country',
+       'City', 'State', 'Postal Code', 'Region', 'Product ID', 'Category',
+       'Sub-Category', 'Product Name', 'Sales', 'Quantity', 'Discount',
+       'Discount Value', 'Profit', 'COGS'],
+      dtype='object')
+JSON Dataset Columns: Index(['name', 'discount', 'orig_price', 'disc_price', 'tags', 'reviews',
+       'link'],
+      dtype='object')
+```
 ### 2. Data Preparation
 
 ```python
