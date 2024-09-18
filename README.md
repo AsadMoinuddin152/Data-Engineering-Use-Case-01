@@ -113,3 +113,87 @@ merged_df.to_csv('combined_dataset.csv', index=False)
 # Display the first few rows of the merged dataframe
 print(merged_df.head())
 ```
+```output
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>product_name</th>
+      <th>actual_price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>!!1000 Watt/2000-Watt Room Heater!! Fan Heater...</td>
+      <td>₹1,599</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>!!HANEUL!!1000 Watt/2000-Watt Room Heater!! Fa...</td>
+      <td>₹1,599</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>"While you Were Out" Message Book, One Form pe...</td>
+      <td>7.42</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>"While you Were Out" Message Book, One Form pe...</td>
+      <td>8.904</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>"While you Were Out" Message Book, One Form pe...</td>
+      <td>8.904</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>14182</th>
+      <td>骸心 Mainbody</td>
+      <td>99.0</td>
+    </tr>
+    <tr>
+      <th>14183</th>
+      <td>눈 떠보니 임진왜란이었다 - Back To the Joseon</td>
+      <td>239.0</td>
+    </tr>
+    <tr>
+      <th>14184</th>
+      <td>미연시 시뮬레이터 : 미소녀 게임의 주인공을 조종하는 게임</td>
+      <td>299.0</td>
+    </tr>
+    <tr>
+      <th>14185</th>
+      <td>피랍 일지 - 그 남자로부터의 탈출</td>
+      <td>329.0</td>
+    </tr>
+    <tr>
+      <th>14186</th>
+      <td>🧠 OUT OF THE BOX</td>
+      <td>1499.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>14187 rows × 2 columns</p>
+</div>
+```
