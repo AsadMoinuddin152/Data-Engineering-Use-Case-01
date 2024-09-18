@@ -113,7 +113,6 @@ merged_df.to_csv('combined_dataset.csv', index=False)
 # Display the first few rows of the merged dataframe
 print(merged_df.head())
 ```
-```output
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -196,4 +195,4 @@ print(merged_df.head())
 </table>
 <p>14187 rows × 2 columns</p>
 </div>
-```
+
